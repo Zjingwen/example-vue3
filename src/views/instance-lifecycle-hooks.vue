@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1>contact</h1>
+    <h1>instance-lifecycle-hooks</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "子页",
+  name: "instance-lifecycle-hooks",
 };
 </script>

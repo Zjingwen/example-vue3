@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/home.vue'
-import Contact from '../views/contact.vue'
+import dataAndMethods from '../views/data-and-methods.vue'
+import instanceLifecycleHooks from '../views/instance-lifecycle-hooks.vue';
 
 const routerHistory = createWebHistory()
 
@@ -10,9 +11,13 @@ export const routers = [
     component: Home,
   },
   {
-    path: '/contact',
-    component: Contact,
+    path: '/data-and-methods',
+    component: dataAndMethods,
   },
+  {
+    path: '/instance-lifecycle-hooks',
+    component: instanceLifecycleHooks,
+  }
 ];
 
 export default createRouter({
