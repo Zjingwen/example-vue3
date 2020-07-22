@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: "home",
+  name: "首页",
 };
 </script>

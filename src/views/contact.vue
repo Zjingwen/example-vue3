@@ -6,6 +6,6 @@
 
 <script>
 export default {
-  name: "contact",
+  name: "子页",
 };
 </script>
