@@ -2,9 +2,10 @@
   <div id="app">
     <div id="head">
       <img src="./assets/logo.png" />
-      <div v-for="(item,i) in routers" :key="i">
-        <router-link :to="item.path">{{item.component['name']}}</router-link>
-      </div>
+      <br>
+      <span v-for="(item,i) in routers" :key="i">
+        <router-link :to="item.path">{{item.component['name']}}</router-link> &nbsp;
+      </span>
     </div>
     <router-view />
   </div>
