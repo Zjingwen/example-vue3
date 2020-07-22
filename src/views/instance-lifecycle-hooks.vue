@@ -58,9 +58,6 @@ export default {
     console.groupEnd();
   },
   methods:{
-    handleCount(){
-      this.msg++;
-    },
     handleShow(){
       this.show = !this.show;
     }
